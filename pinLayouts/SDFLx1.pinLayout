@@ -1,0 +1,237 @@
+a   PNR Testcase Generation::  DesignName = SDFLx1
+a   Output File:
+a   /home/eto10/PNR_6T_JOURNAL2/pinLayouts_ASAP7/SDFLx1.pinLayout
+a   Width of Routing Clip    = 49
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 4
+a   Width of Placement Clip  = 49
+a   Tracks per Placement Clip = 3
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM13 PMOS 1
+i   insMM11 PMOS 1
+i   insMM1 PMOS 3
+i   insMM3 PMOS 3
+i   insMM31 PMOS 3
+i   insMM10 PMOS 1
+i   insMM2 PMOS 3
+i   insMM27 PMOS 3
+i   insMM30 PMOS 3
+i   insMM7 PMOS 1
+i   insMM25 PMOS 3
+i   insMM22 PMOS 2
+i   insMM21 PMOS 2
+i   insMM19 PMOS 1
+i   insMM18 PMOS 1
+i   insMM15 PMOS 1
+i   insMM24 NMOS 3
+i   insMM23 NMOS 2
+i   insMM20 NMOS 2
+i   insMM17 NMOS 1
+i   insMM16 NMOS 1
+i   insMM14 NMOS 1
+i   insMM12 NMOS 1
+i   insMM9 NMOS 1
+i   insMM8 NMOS 1
+i   insMM6 NMOS 1
+i   insMM5 NMOS 3
+i   insMM4 NMOS 3
+i   insMM0 NMOS 3
+i   insMM26 NMOS 3
+i   insMM32 NMOS 3
+i   insMM29 NMOS 3
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM24 S s 3
+i   pin1 net1 insMM24 G s 3
+i   pin2 net2 insMM24 D s 3
+i   pin3 net0 insMM23 S t 2
+i   pin4 net3 insMM23 G s 2
+i   pin5 net4 insMM23 D s 2
+i   pin6 net0 insMM20 S t 2
+i   pin7 net5 insMM20 G s 2
+i   pin8 net3 insMM20 D t 2
+i   pin9 net6 insMM17 S s 1
+i   pin10 net4 insMM17 G t 1
+i   pin11 net1 insMM17 D t 1
+i   pin12 net0 insMM16 D t 1
+i   pin13 net7 insMM16 G s 1
+i   pin14 net6 insMM16 S t 1
+i   pin15 net0 insMM14 S t 1
+i   pin16 net1 insMM14 G t 1
+i   pin17 net7 insMM14 D t 1
+i   pin18 net1 insMM12 S t 1
+i   pin19 net3 insMM12 G t 1
+i   pin20 net8 insMM12 D s 1
+i   pin21 net9 insMM9 S s 1
+i   pin22 net3 insMM9 G t 1
+i   pin23 net10 insMM9 D s 1
+i   pin24 net0 insMM8 D t 1
+i   pin25 net8 insMM8 G t 1
+i   pin26 net9 insMM8 S t 1
+i   pin27 net0 insMM6 D t 1
+i   pin28 net10 insMM6 G t 1
+i   pin29 net8 insMM6 S t 1
+i   pin30 net11 insMM5 D s 3
+i   pin31 net12 insMM5 G s 3
+i   pin32 net13 insMM5 S s 3
+i   pin33 net13 insMM4 S t 3
+i   pin34 net4 insMM4 G t 3
+i   pin35 net10 insMM4 D t 3
+i   pin36 net0 insMM0 S t 3
+i   pin37 net12 insMM0 G t 3
+i   pin38 net14 insMM0 D s 3
+i   pin39 net0 insMM26 D t 3
+i   pin40 net15 insMM26 G s 3
+i   pin41 net11 insMM26 S t 3
+i   pin42 net16 insMM32 D s 3
+i   pin43 net17 insMM32 G s 3
+i   pin44 net13 insMM32 S t 3
+i   pin45 net0 insMM29 D t 3
+i   pin46 net14 insMM29 G t 3
+i   pin47 net16 insMM29 S t 3
+i   pin48 net1 insMM13 S t 1
+i   pin49 net4 insMM13 G t 1
+i   pin50 net8 insMM13 D t 1
+i   pin51 net18 insMM11 D s 1
+i   pin52 net8 insMM11 G t 1
+i   pin53 net19 insMM11 S s 1
+i   pin54 net20 insMM1 S s 3
+i   pin55 net3 insMM1 G t 3
+i   pin56 net10 insMM1 D t 3
+i   pin57 net21 insMM3 S s 3
+i   pin58 net15 insMM3 G t 3
+i   pin59 net20 insMM3 D t 3
+i   pin60 net21 insMM31 S t 3
+i   pin61 net12 insMM31 G t 3
+i   pin62 net20 insMM31 D t 3
+i   pin63 net19 insMM10 S t 1
+i   pin64 net4 insMM10 G t 1
+i   pin65 net10 insMM10 D t 1
+i   pin66 net18 insMM2 S t 3
+i   pin67 net12 insMM2 G t 3
+i   pin68 net14 insMM2 D t 3
+i   pin69 net18 insMM27 D t 3
+i   pin70 net14 insMM27 G t 3
+i   pin71 net21 insMM27 S t 3
+i   pin72 net18 insMM30 D t 3
+i   pin73 net17 insMM30 G t 3
+i   pin74 net21 insMM30 S t 3
+i   pin75 net18 insMM7 D t 1
+i   pin76 net10 insMM7 G t 1
+i   pin77 net8 insMM7 S t 1
+i   pin78 net18 insMM25 S t 3
+i   pin79 net1 insMM25 G t 3
+i   pin80 net2 insMM25 D t 3
+i   pin81 net18 insMM22 S t 2
+i   pin82 net3 insMM22 G t 2
+i   pin83 net4 insMM22 D t 2
+i   pin84 net18 insMM21 S t 2
+i   pin85 net5 insMM21 G t 2
+i   pin86 net3 insMM21 D t 2
+i   pin87 net18 insMM19 D t 1
+i   pin88 net7 insMM19 G t 1
+i   pin89 net22 insMM19 S s 1
+i   pin90 net22 insMM18 S t 1
+i   pin91 net3 insMM18 G t 1
+i   pin92 net1 insMM18 D t 1
+i   pin93 net18 insMM15 S t 1
+i   pin94 net1 insMM15 G t 1
+i   pin95 net7 insMM15 D t 1
+i   pin96 net18 ext VDD t -1 P
+i   pin97 net0 ext VSS t -1 P
+i   pin98 net5 ext CLK t -1 I
+i   pin99 net17 ext D t -1 I
+i   pin100 net12 ext SE t -1 I
+i   pin101 net15 ext SI t -1 I
+i   pin102 net2 ext QN t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 11PinNet pin97 pin45 pin39 pin36 pin27 pin24 pin15 pin12 pin6 pin3 pin0
+i   net1 8PinNet pin94 pin92 pin79 pin48 pin18 pin16 pin11 pin1
+i   net2 3PinNet pin102 pin80 pin2
+i   net3 8PinNet pin91 pin86 pin82 pin55 pin22 pin19 pin8 pin4
+i   net4 6PinNet pin83 pin64 pin49 pin34 pin10 pin5
+i   net5 3PinNet pin98 pin85 pin7
+i   net6 2PinNet pin14 pin9
+i   net7 4PinNet pin95 pin88 pin17 pin13
+i   net8 6PinNet pin77 pin52 pin50 pin29 pin25 pin20
+i   net9 2PinNet pin26 pin21
+i   net10 6PinNet pin76 pin65 pin56 pin35 pin28 pin23
+i   net11 2PinNet pin41 pin30
+i   net12 5PinNet pin100 pin67 pin61 pin37 pin31
+i   net13 3PinNet pin44 pin33 pin32
+i   net14 4PinNet pin70 pin68 pin46 pin38
+i   net15 3PinNet pin101 pin58 pin40
+i   net16 2PinNet pin47 pin42
+i   net17 3PinNet pin99 pin73 pin43
+i   net18 11PinNet pin96 pin93 pin87 pin84 pin81 pin78 pin75 pin72 pin69 pin66 pin51
+i   net19 2PinNet pin63 pin53
+i   net20 3PinNet pin62 pin59 pin54
+i   net21 4PinNet pin74 pin71 pin60 pin57
+i   net22 2PinNet pin90 pin89
+i   ===PartitionInfo===
+i   InstID Type PartitionGroup
+i   insMM22 PMOS 2
+i   insMM21 PMOS 2
+i   insMM13 PMOS 4
+i   insMM11 PMOS 5
+i   insMM1 PMOS 6
+i   insMM3 PMOS 6
+i   insMM31 PMOS 6
+i   insMM10 PMOS 5
+i   insMM2 PMOS 3
+i   insMM27 PMOS 6
+i   insMM30 PMOS 6
+i   insMM7 PMOS 5
+i   insMM25 PMOS 1
+i   insMM19 PMOS 3
+i   insMM18 PMOS 3
+i   insMM15 PMOS 3
+i   insMM24 NMOS 1
+i   insMM17 NMOS 3
+i   insMM16 NMOS 3
+i   insMM14 NMOS 3
+i   insMM12 NMOS 4
+i   insMM9 NMOS 5
+i   insMM8 NMOS 5
+i   insMM6 NMOS 5
+i   insMM5 NMOS 6
+i   insMM4 NMOS 6
+i   insMM0 NMOS 3
+i   insMM26 NMOS 6
+i   insMM32 NMOS 6
+i   insMM29 NMOS 6
+i   insMM23 NMOS 2
+i   insMM20 NMOS 2
+i   ===SpecialNetInfo===
+i   NetID
+i   net3
+i   net4
+i   ===SDBCellInfo===
+i   insMM13 PMOS
+i   insMM11 PMOS
+i   insMM1 PMOS
+i   insMM3 PMOS
+i   insMM31 PMOS
+i   insMM10 PMOS
+i   insMM2 PMOS
+i   insMM27 PMOS
+i   insMM30 PMOS
+i   insMM7 PMOS
+i   insMM19 PMOS
+i   insMM18 PMOS
+i   insMM15 PMOS
+i   insMM17 NMOS
+i   insMM16 NMOS
+i   insMM14 NMOS
+i   insMM12 NMOS
+i   insMM9 NMOS
+i   insMM8 NMOS
+i   insMM6 NMOS
+i   insMM5 NMOS
+i   insMM4 NMOS
+i   insMM0 NMOS
+i   insMM26 NMOS
+i   insMM32 NMOS
+i   insMM29 NMOS

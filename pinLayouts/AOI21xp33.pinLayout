@@ -1,0 +1,52 @@
+a   PNR Testcase Generation::  DesignName = AOI21xp33
+a   Output File:
+a   /home/eto10/PNR_6T_JOURNAL2/pinLayouts_ASAP7/AOI21xp33.pinLayout
+a   Width of Routing Clip = 15
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 4
+a   Width of Placement Clip = 15
+a   Tracks per Placement Clip = 3
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM5 PMOS 2
+i   insMM0 PMOS 2
+i   insMM1 PMOS 2
+i   insMM4 NMOS 2
+i   insMM3 NMOS 2
+i   insMM2 NMOS 2
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM4 D s 2
+i   pin1 net1 insMM4 G s 2
+i   pin2 net2 insMM4 S s 2
+i   pin3 net3 insMM3 S s 2
+i   pin4 net4 insMM3 G s 2
+i   pin5 net2 insMM3 D t 2
+i   pin6 net0 insMM2 D t 2
+i   pin7 net5 insMM2 G s 2
+i   pin8 net3 insMM2 S t 2
+i   pin9 net6 insMM5 D s 2
+i   pin10 net5 insMM5 G t 2
+i   pin11 net7 insMM5 S s 2
+i   pin12 net7 insMM0 S t 2
+i   pin13 net1 insMM0 G t 2
+i   pin14 net2 insMM0 D t 2
+i   pin15 net6 insMM1 D t 2
+i   pin16 net4 insMM1 G t 2
+i   pin17 net7 insMM1 S t 2
+i   pin18 net6 ext VDD t -1 P
+i   pin19 net0 ext VSS t -1 P
+i   pin20 net4 ext A1 t -1 I
+i   pin21 net5 ext A2 t -1 I
+i   pin22 net1 ext B t -1 I
+i   pin23 net2 ext Y t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 3PinNet pin19 pin6 pin0
+i   net1 3PinNet pin22 pin13 pin1
+i   net2 4PinNet pin23 pin14 pin5 pin2
+i   net3 2PinNet pin8 pin3
+i   net4 3PinNet pin20 pin16 pin4
+i   net5 3PinNet pin21 pin10 pin7
+i   net6 3PinNet pin18 pin15 pin9
+i   net7 3PinNet pin17 pin12 pin11

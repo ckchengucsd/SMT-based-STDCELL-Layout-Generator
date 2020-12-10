@@ -1,0 +1,41 @@
+a   PNR Testcase Generation::  DesignName = NAND2xp67
+a   Output File:
+a   /home/eto10/PNR_6T_JOURNAL2/pinLayouts_ASAP7/NAND2xp67.pinLayout
+a   Width of Routing Clip = 17
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 4
+a   Width of Placement Clip = 17
+a   Tracks per Placement Clip = 3
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM5 PMOS 2
+i   insMM2 PMOS 2
+i   insMM4 NMOS 4
+i   insMM3 NMOS 4
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM4 D s 4
+i   pin1 net1 insMM4 G s 4
+i   pin2 net2 insMM4 S s 4
+i   pin3 net2 insMM3 S t 4
+i   pin4 net3 insMM3 G s 4
+i   pin5 net4 insMM3 D s 4
+i   pin6 net5 insMM5 D s 2
+i   pin7 net3 insMM5 G t 2
+i   pin8 net4 insMM5 S t 2
+i   pin9 net5 insMM2 D t 2
+i   pin10 net1 insMM2 G t 2
+i   pin11 net4 insMM2 S t 2
+i   pin12 net5 ext VDD t -1 P
+i   pin13 net0 ext VSS t -1 P
+i   pin14 net1 ext A t -1 I
+i   pin15 net3 ext B t -1 I
+i   pin16 net4 ext Y t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 2PinNet pin13 pin0
+i   net1 3PinNet pin14 pin10 pin1
+i   net2 2PinNet pin3 pin2
+i   net3 3PinNet pin15 pin7 pin4
+i   net4 4PinNet pin16 pin11 pin8 pin5
+i   net5 3PinNet pin12 pin9 pin6

@@ -1,0 +1,74 @@
+a   PNR Testcase Generation::  DesignName = AND2x6
+a   Output File:
+a   /home/eto10/PNR_6T_JOURNAL2/pinLayouts_ASAP7_SPLIT/AND2x6.pinLayout
+a   Width of Routing Clip    = 23
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 4
+a   Width of Placement Clip  = 23
+a   Tracks per Placement Clip = 3
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM4_0 PMOS 9
+i   insMM4_1 PMOS 9
+i   insMM1_0 PMOS 2
+i   insMM1_1 PMOS 2
+i   insMM0_0 PMOS 2
+i   insMM0_1 PMOS 2
+i   insMM5_0 NMOS 9
+i   insMM5_1 NMOS 9
+i   insMM3_0 NMOS 3
+i   insMM3_1 NMOS 3
+i   insMM2_0 NMOS 3
+i   insMM2_1 NMOS 3
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM4_0 S s 9
+i   pin1 net1 insMM4_0 G s 9
+i   pin2 net2 insMM4_0 D s 9
+i   pin3 net0 insMM4_1 S t 9
+i   pin4 net1 insMM4_1 G t 9
+i   pin5 net2 insMM4_1 D t 9
+i   pin6 net0 insMM1_0 S t 9
+i   pin7 net3 insMM1_0 G s 9
+i   pin8 net1 insMM1_0 D t 9
+i   pin9 net0 insMM1_1 S t 9
+i   pin10 net3 insMM1_1 G t 9
+i   pin11 net1 insMM1_1 D t 9
+i   pin12 net0 insMM0_0 S t 9
+i   pin13 net4 insMM0_0 G s 9
+i   pin14 net1 insMM0_0 D t 9
+i   pin15 net0 insMM0_1 S t 9
+i   pin16 net4 insMM0_1 G t 9
+i   pin17 net1 insMM0_1 D t 9
+i   pin18 net5 insMM5_0 S s 9
+i   pin19 net1 insMM5_0 G t 9
+i   pin20 net2 insMM5_0 D t 9
+i   pin21 net5 insMM5_1 S t 9
+i   pin22 net1 insMM5_1 G t 9
+i   pin23 net2 insMM5_1 D t 9
+i   pin24 net5 insMM3_0 S t 9
+i   pin25 net4 insMM3_0 G t 9
+i   pin26 net6 insMM3_0 D s 9
+i   pin27 net5 insMM3_1 S t 9
+i   pin28 net4 insMM3_1 G t 9
+i   pin29 net6 insMM3_1 D t 9
+i   pin30 net6 insMM2_0 S t 9
+i   pin31 net3 insMM2_0 G t 9
+i   pin32 net1 insMM2_0 D t 9
+i   pin33 net6 insMM2_1 S t 9
+i   pin34 net3 insMM2_1 G t 9
+i   pin35 net1 insMM2_1 D t 9
+i   pin36 net0 ext VDD t -1 P
+i   pin37 net5 ext VSS t -1 P
+i   pin38 net4 ext A t -1 I
+i   pin39 net3 ext B t -1 I
+i   pin40 net2 ext Y t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 7PinNet pin36 pin15 pin12 pin9 pin6 pin3 pin0
+i   net1 10PinNet pin35 pin32 pin22 pin19 pin17 pin14 pin11 pin8 pin4 pin1
+i   net2 5PinNet pin40 pin23 pin20 pin5 pin2
+i   net3 5PinNet pin39 pin34 pin31 pin10 pin7
+i   net4 5PinNet pin38 pin28 pin25 pin16 pin13
+i   net5 5PinNet pin37 pin27 pin24 pin21 pin18
+i   net6 4PinNet pin33 pin30 pin29 pin26

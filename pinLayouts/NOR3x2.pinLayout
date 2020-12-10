@@ -1,0 +1,64 @@
+a   PNR Testcase Generation::  DesignName = NOR3x2
+a   Output File:
+a   /home/eto10/A7_Layout/pinLayouts_ASAP7_SPLIT/NOR3x2.pinLayout
+a   Width of Routing Clip    = 39
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 4
+a   Width of Placement Clip  = 39
+a   Tracks per Placement Clip = 3
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM8_0 PMOS 9
+i   insMM8_1 PMOS 9
+i   insMM10_0 PMOS 9
+i   insMM10_1 PMOS 9
+i   insMM11_0 PMOS 9
+i   insMM11_1 PMOS 9
+i   insMM14_0 NMOS 6
+i   insMM13_0 NMOS 6
+i   insMM12_0 NMOS 6
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM14_0 S s 6
+i   pin1 net1 insMM14_0 G s 6
+i   pin2 net2 insMM14_0 D s 6
+i   pin3 net0 insMM13_0 S t 6
+i   pin4 net3 insMM13_0 G s 6
+i   pin5 net2 insMM13_0 D t 6
+i   pin6 net0 insMM12_0 S t 6
+i   pin7 net4 insMM12_0 G s 6
+i   pin8 net2 insMM12_0 D t 6
+i   pin9 net5 insMM8_0 S s 6
+i   pin10 net1 insMM8_0 G t 6
+i   pin11 net6 insMM8_0 D s 6
+i   pin12 net5 insMM8_1 S t 6
+i   pin13 net1 insMM8_1 G t 6
+i   pin14 net6 insMM8_1 D t 6
+i   pin15 net6 insMM10_0 S t 6
+i   pin16 net3 insMM10_0 G t 6
+i   pin17 net7 insMM10_0 D s 6
+i   pin18 net6 insMM10_1 S t 6
+i   pin19 net3 insMM10_1 G t 6
+i   pin20 net7 insMM10_1 D t 6
+i   pin21 net7 insMM11_0 S t 6
+i   pin22 net4 insMM11_0 G t 6
+i   pin23 net2 insMM11_0 D t 6
+i   pin24 net7 insMM11_1 S t 6
+i   pin25 net4 insMM11_1 G t 6
+i   pin26 net2 insMM11_1 D t 6
+i   pin27 net5 ext VDD t -1 P
+i   pin28 net0 ext VSS t -1 P
+i   pin29 net4 ext A t -1 I
+i   pin30 net3 ext B t -1 I
+i   pin31 net1 ext C t -1 I
+i   pin32 net2 ext Y t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 4PinNet pin28 pin6 pin3 pin0
+i   net1 4PinNet pin31 pin13 pin10 pin1
+i   net2 6PinNet pin32 pin26 pin23 pin8 pin5 pin2
+i   net3 4PinNet pin30 pin19 pin16 pin4
+i   net4 4PinNet pin29 pin25 pin22 pin7
+i   net5 3PinNet pin27 pin12 pin9
+i   net6 4PinNet pin18 pin15 pin14 pin11
+i   net7 4PinNet pin24 pin21 pin20 pin17

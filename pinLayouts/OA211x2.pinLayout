@@ -1,0 +1,72 @@
+a   PNR Testcase Generation::  DesignName = OA211x2
+a   Output File:
+a   /home/eto10/PNR_6T_JOURNAL2/pinLayouts_ASAP7/OA211x2.pinLayout
+a   Width of Routing Clip = 21
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 4
+a   Width of Placement Clip = 21
+a   Tracks per Placement Clip = 3
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM0 PMOS 6
+i   insMM39 PMOS 1
+i   insMM38 PMOS 1
+i   insMM37 PMOS 2
+i   insMM36 PMOS 2
+i   insMM1 NMOS 6
+i   insMM41 NMOS 3
+i   insMM43 NMOS 3
+i   insMM40 NMOS 3
+i   insMM42 NMOS 3
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM0 S s 6
+i   pin1 net1 insMM0 G s 6
+i   pin2 net2 insMM0 D s 6
+i   pin3 net0 insMM39 D t 1
+i   pin4 net3 insMM39 G s 1
+i   pin5 net1 insMM39 S t 1
+i   pin6 net0 insMM38 D t 1
+i   pin7 net4 insMM38 G s 1
+i   pin8 net1 insMM38 S t 1
+i   pin9 net5 insMM37 D s 2
+i   pin10 net6 insMM37 G s 2
+i   pin11 net1 insMM37 S t 2
+i   pin12 net0 insMM36 D t 2
+i   pin13 net7 insMM36 G s 2
+i   pin14 net5 insMM36 S t 2
+i   pin15 net8 insMM1 S s 6
+i   pin16 net1 insMM1 G t 6
+i   pin17 net2 insMM1 D t 6
+i   pin18 net9 insMM41 S s 3
+i   pin19 net6 insMM41 G t 3
+i   pin20 net1 insMM41 D t 3
+i   pin21 net8 insMM43 D t 3
+i   pin22 net3 insMM43 G t 3
+i   pin23 net10 insMM43 S s 3
+i   pin24 net9 insMM40 S t 3
+i   pin25 net7 insMM40 G t 3
+i   pin26 net1 insMM40 D t 3
+i   pin27 net10 insMM42 D t 3
+i   pin28 net4 insMM42 G t 3
+i   pin29 net9 insMM42 S t 3
+i   pin30 net0 ext VDD t -1 P
+i   pin31 net8 ext VSS t -1 P
+i   pin32 net7 ext A1 t -1 I
+i   pin33 net6 ext A2 t -1 I
+i   pin34 net4 ext B t -1 I
+i   pin35 net3 ext C t -1 I
+i   pin36 net2 ext Y t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 5PinNet pin30 pin12 pin6 pin3 pin0
+i   net1 7PinNet pin26 pin20 pin16 pin11 pin8 pin5 pin1
+i   net2 3PinNet pin36 pin17 pin2
+i   net3 3PinNet pin35 pin22 pin4
+i   net4 3PinNet pin34 pin28 pin7
+i   net5 2PinNet pin14 pin9
+i   net6 3PinNet pin33 pin19 pin10
+i   net7 3PinNet pin32 pin25 pin13
+i   net8 3PinNet pin31 pin21 pin15
+i   net9 3PinNet pin29 pin24 pin18
+i   net10 2PinNet pin27 pin23

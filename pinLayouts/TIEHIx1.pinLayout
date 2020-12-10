@@ -1,0 +1,29 @@
+a   PNR Testcase Generation::  DesignName = TIEHIx1
+a   Output File:
+a   /home/eto10/PNR_6T_JOURNAL2/pinLayouts_ASAP7/TIEHIx1.pinLayout
+a   Width of Routing Clip = 11
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 4
+a   Width of Placement Clip = 11
+a   Tracks per Placement Clip = 3
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM1 PMOS 3
+i   insMM2 NMOS 1
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM1 S s 3
+i   pin1 net1 insMM1 G s 3
+i   pin2 net2 insMM1 D s 3
+i   pin3 net3 insMM2 S s 1
+i   pin4 net2 insMM2 G t 1
+i   pin5 net1 insMM2 D t 1
+i   pin6 net0 ext VDD t -1 P
+i   pin7 net3 ext VSS t -1 P
+i   pin8 net2 ext H t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 2PinNet pin6 pin0
+i   net1 2PinNet pin5 pin1
+i   net2 3PinNet pin8 pin4 pin2
+i   net3 2PinNet pin7 pin3

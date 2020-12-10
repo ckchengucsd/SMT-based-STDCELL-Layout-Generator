@@ -1,0 +1,105 @@
+a   PNR Testcase Generation::  DesignName = AO322x2
+a   Output File:
+a   /home/eto10/PNR_6T_JOURNAL2/pinLayouts_ASAP7/AO322x2.pinLayout
+a   Width of Routing Clip = 29
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 4
+a   Width of Placement Clip = 29
+a   Tracks per Placement Clip = 3
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM17 PMOS 6
+i   insMM13 PMOS 3
+i   insMM12 PMOS 3
+i   insMM11 PMOS 3
+i   insMM10 PMOS 3
+i   insMM9 PMOS 3
+i   insMM8 PMOS 3
+i   insMM7 PMOS 3
+i   insMM16 NMOS 6
+i   insMM6 NMOS 2
+i   insMM5 NMOS 2
+i   insMM4 NMOS 2
+i   insMM3 NMOS 2
+i   insMM2 NMOS 3
+i   insMM1 NMOS 3
+i   insMM0 NMOS 3
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM16 S s 6
+i   pin1 net1 insMM16 G s 6
+i   pin2 net2 insMM16 D s 6
+i   pin3 net0 insMM6 D t 2
+i   pin4 net3 insMM6 G s 2
+i   pin5 net4 insMM6 S s 2
+i   pin6 net4 insMM5 D t 2
+i   pin7 net5 insMM5 G s 2
+i   pin8 net1 insMM5 S t 2
+i   pin9 net0 insMM4 D t 2
+i   pin10 net6 insMM4 G s 2
+i   pin11 net7 insMM4 S s 2
+i   pin12 net7 insMM3 D t 2
+i   pin13 net8 insMM3 G s 2
+i   pin14 net1 insMM3 S t 2
+i   pin15 net0 insMM2 D t 3
+i   pin16 net9 insMM2 G s 3
+i   pin17 net10 insMM2 S s 3
+i   pin18 net10 insMM1 S t 3
+i   pin19 net11 insMM1 G s 3
+i   pin20 net12 insMM1 D s 3
+i   pin21 net12 insMM0 D t 3
+i   pin22 net13 insMM0 G s 3
+i   pin23 net1 insMM0 S t 3
+i   pin24 net14 insMM17 S s 6
+i   pin25 net1 insMM17 G t 6
+i   pin26 net2 insMM17 D t 6
+i   pin27 net14 insMM13 D t 3
+i   pin28 net9 insMM13 G t 3
+i   pin29 net15 insMM13 S s 3
+i   pin30 net16 insMM12 S s 3
+i   pin31 net3 insMM12 G t 3
+i   pin32 net1 insMM12 D t 3
+i   pin33 net15 insMM11 S t 3
+i   pin34 net6 insMM11 G t 3
+i   pin35 net16 insMM11 D t 3
+i   pin36 net14 insMM10 D t 3
+i   pin37 net11 insMM10 G t 3
+i   pin38 net15 insMM10 S t 3
+i   pin39 net16 insMM9 S t 3
+i   pin40 net5 insMM9 G t 3
+i   pin41 net1 insMM9 D t 3
+i   pin42 net15 insMM8 S t 3
+i   pin43 net8 insMM8 G t 3
+i   pin44 net16 insMM8 D t 3
+i   pin45 net14 insMM7 D t 3
+i   pin46 net13 insMM7 G t 3
+i   pin47 net15 insMM7 S t 3
+i   pin48 net14 ext VDD t -1 P
+i   pin49 net0 ext VSS t -1 P
+i   pin50 net13 ext A1 t -1 I
+i   pin51 net11 ext A2 t -1 I
+i   pin52 net9 ext A3 t -1 I
+i   pin53 net8 ext B1 t -1 I
+i   pin54 net6 ext B2 t -1 I
+i   pin55 net5 ext C1 t -1 I
+i   pin56 net3 ext C2 t -1 I
+i   pin57 net2 ext Y t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 5PinNet pin49 pin15 pin9 pin3 pin0
+i   net1 7PinNet pin41 pin32 pin25 pin23 pin14 pin8 pin1
+i   net2 3PinNet pin57 pin26 pin2
+i   net3 3PinNet pin56 pin31 pin4
+i   net4 2PinNet pin6 pin5
+i   net5 3PinNet pin55 pin40 pin7
+i   net6 3PinNet pin54 pin34 pin10
+i   net7 2PinNet pin12 pin11
+i   net8 3PinNet pin53 pin43 pin13
+i   net9 3PinNet pin52 pin28 pin16
+i   net10 2PinNet pin18 pin17
+i   net11 3PinNet pin51 pin37 pin19
+i   net12 2PinNet pin21 pin20
+i   net13 3PinNet pin50 pin46 pin22
+i   net14 5PinNet pin48 pin45 pin36 pin27 pin24
+i   net15 5PinNet pin47 pin42 pin38 pin33 pin29
+i   net16 4PinNet pin44 pin39 pin35 pin30

@@ -1,0 +1,49 @@
+a   PNR Testcase Generation::  DesignName = NOR2x1p5
+a   Output File:
+a   /home/eto10/PNR_6T_JOURNAL2/pinLayouts_ASAP7_SPLIT/NOR2x1p5.pinLayout
+a   Width of Routing Clip    = 15
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 4
+a   Width of Placement Clip  = 15
+a   Tracks per Placement Clip = 3
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM4_0 PMOS 9
+i   insMM3_0 PMOS 9
+i   insMM2_0 NMOS 3
+i   insMM2_1 NMOS 2
+i   insMM1_0 NMOS 3
+i   insMM1_1 NMOS 2
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM2_0 S s 3
+i   pin1 net1 insMM2_0 G s 3
+i   pin2 net2 insMM2_0 D s 3
+i   pin3 net0 insMM2_1 S t 3
+i   pin4 net1 insMM2_1 G t 3
+i   pin5 net2 insMM2_1 D t 3
+i   pin6 net0 insMM1_0 S t 3
+i   pin7 net3 insMM1_0 G s 3
+i   pin8 net2 insMM1_0 D t 3
+i   pin9 net0 insMM1_1 S t 3
+i   pin10 net3 insMM1_1 G t 3
+i   pin11 net2 insMM1_1 D t 3
+i   pin12 net0 insMM4_0 S t 3
+i   pin13 net3 insMM4_0 G t 3
+i   pin14 net4 insMM4_0 D s 3
+i   pin15 net4 insMM3_0 S t 3
+i   pin16 net1 insMM3_0 G t 3
+i   pin17 net5 insMM3_0 D s 3
+i   pin18 net5 ext VDD t -1 P
+i   pin19 net2 ext VSS t -1 P
+i   pin20 net1 ext A t -1 I
+i   pin21 net3 ext B t -1 I
+i   pin22 net0 ext Y t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 6PinNet pin22 pin12 pin9 pin6 pin3 pin0
+i   net1 4PinNet pin20 pin16 pin4 pin1
+i   net2 5PinNet pin19 pin11 pin8 pin5 pin2
+i   net3 4PinNet pin21 pin13 pin10 pin7
+i   net4 2PinNet pin15 pin14
+i   net5 2PinNet pin18 pin17

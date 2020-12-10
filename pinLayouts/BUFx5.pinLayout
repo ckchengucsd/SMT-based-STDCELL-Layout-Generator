@@ -1,0 +1,39 @@
+a   PNR Testcase Generation::  DesignName = BUFx5
+a   Output File:
+a   /home/eto10/PNR_6T_JOURNAL2/pinLayouts_ASAP7/BUFx5.pinLayout
+a   Width of Routing Clip = 21
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 4
+a   Width of Placement Clip = 21
+a   Tracks per Placement Clip = 3
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM1 PMOS 15
+i   insMM0 PMOS 3
+i   insMM3 NMOS 15
+i   insMM2 NMOS 3
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM1 S s 15
+i   pin1 net1 insMM1 G s 15
+i   pin2 net2 insMM1 D s 15
+i   pin3 net0 insMM0 S t 3
+i   pin4 net3 insMM0 G s 3
+i   pin5 net1 insMM0 D t 3
+i   pin6 net4 insMM3 S s 15
+i   pin7 net1 insMM3 G t 15
+i   pin8 net2 insMM3 D t 15
+i   pin9 net4 insMM2 S t 3
+i   pin10 net3 insMM2 G t 3
+i   pin11 net1 insMM2 D t 3
+i   pin12 net0 ext VDD t -1 P
+i   pin13 net4 ext VSS t -1 P
+i   pin14 net3 ext A t -1 I
+i   pin15 net2 ext Y t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 3PinNet pin12 pin3 pin0
+i   net1 4PinNet pin11 pin7 pin5 pin1
+i   net2 3PinNet pin15 pin8 pin2
+i   net3 3PinNet pin14 pin10 pin4
+i   net4 3PinNet pin13 pin9 pin6

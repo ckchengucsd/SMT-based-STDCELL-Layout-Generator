@@ -1,0 +1,64 @@
+a   PNR Testcase Generation::  DesignName = NAND3x2
+a   Output File:
+a   /home/eto10/A7_Layout/pinLayouts_ASAP7_SPLIT/NAND3x2.pinLayout
+a   Width of Routing Clip    = 39
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 4
+a   Width of Placement Clip  = 39
+a   Tracks per Placement Clip = 3
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM3_0 PMOS 6
+i   insMM4_0 PMOS 6
+i   insMM5_0 PMOS 6
+i   insMM0_0 NMOS 9
+i   insMM0_1 NMOS 9
+i   insMM1_0 NMOS 9
+i   insMM1_1 NMOS 9
+i   insMM2_0 NMOS 9
+i   insMM2_1 NMOS 9
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM0_0 S s 9
+i   pin1 net1 insMM0_0 G s 9
+i   pin2 net2 insMM0_0 D s 9
+i   pin3 net0 insMM0_1 S t 9
+i   pin4 net1 insMM0_1 G t 9
+i   pin5 net2 insMM0_1 D t 9
+i   pin6 net3 insMM1_0 S s 9
+i   pin7 net4 insMM1_0 G s 9
+i   pin8 net0 insMM1_0 D t 9
+i   pin9 net3 insMM1_1 S t 9
+i   pin10 net4 insMM1_1 G t 9
+i   pin11 net0 insMM1_1 D t 9
+i   pin12 net5 insMM2_0 S s 9
+i   pin13 net6 insMM2_0 G s 9
+i   pin14 net3 insMM2_0 D t 9
+i   pin15 net5 insMM2_1 S t 9
+i   pin16 net6 insMM2_1 G t 9
+i   pin17 net3 insMM2_1 D t 9
+i   pin18 net7 insMM3_0 S s 9
+i   pin19 net1 insMM3_0 G t 9
+i   pin20 net2 insMM3_0 D t 9
+i   pin21 net7 insMM4_0 S t 9
+i   pin22 net4 insMM4_0 G t 9
+i   pin23 net2 insMM4_0 D t 9
+i   pin24 net7 insMM5_0 S t 9
+i   pin25 net6 insMM5_0 G t 9
+i   pin26 net2 insMM5_0 D t 9
+i   pin27 net7 ext VDD t -1 P
+i   pin28 net5 ext VSS t -1 P
+i   pin29 net1 ext A t -1 I
+i   pin30 net4 ext B t -1 I
+i   pin31 net6 ext C t -1 I
+i   pin32 net2 ext Y t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 4PinNet pin11 pin8 pin3 pin0
+i   net1 4PinNet pin29 pin19 pin4 pin1
+i   net2 6PinNet pin32 pin26 pin23 pin20 pin5 pin2
+i   net3 4PinNet pin17 pin14 pin9 pin6
+i   net4 4PinNet pin30 pin22 pin10 pin7
+i   net5 3PinNet pin28 pin15 pin12
+i   net6 4PinNet pin31 pin25 pin16 pin13
+i   net7 4PinNet pin27 pin24 pin21 pin18

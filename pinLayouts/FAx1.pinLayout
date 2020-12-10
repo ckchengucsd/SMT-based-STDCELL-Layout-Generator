@@ -1,0 +1,134 @@
+a   PNR Testcase Generation::  DesignName = FAx1
+a   Output File:
+a   /home/eto10/PNR_6T_JOURNAL2/pinLayouts_ASAP7/FAx1.pinLayout
+a   Width of Routing Clip    = 27
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 4
+a   Width of Placement Clip  = 27
+a   Tracks per Placement Clip = 3
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM22 PMOS 3
+i   insMM21 PMOS 3
+i   insMM20 PMOS 3
+i   insMM15 PMOS 3
+i   insMM14 PMOS 3
+i   insMM13 PMOS 3
+i   insMM12 PMOS 3
+i   insMM5 PMOS 3
+i   insMM6 PMOS 3
+i   insMM2 PMOS 3
+i   insMM1 PMOS 3
+i   insMM0 PMOS 3
+i   insMM25 NMOS 3
+i   insMM24 NMOS 3
+i   insMM23 NMOS 3
+i   insMM19 NMOS 3
+i   insMM18 NMOS 3
+i   insMM17 NMOS 3
+i   insMM16 NMOS 3
+i   insMM11 NMOS 3
+i   insMM10 NMOS 3
+i   insMM9 NMOS 3
+i   insMM8 NMOS 3
+i   insMM7 NMOS 3
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM22 S s 3
+i   pin1 net1 insMM22 G s 3
+i   pin2 net2 insMM22 D s 3
+i   pin3 net3 insMM21 S s 3
+i   pin4 net4 insMM21 G s 3
+i   pin5 net0 insMM21 D t 3
+i   pin6 net5 insMM20 D s 3
+i   pin7 net6 insMM20 G s 3
+i   pin8 net3 insMM20 S t 3
+i   pin9 net7 insMM15 S s 3
+i   pin10 net8 insMM15 G s 3
+i   pin11 net2 insMM15 D t 3
+i   pin12 net5 insMM14 D t 3
+i   pin13 net1 insMM14 G t 3
+i   pin14 net7 insMM14 S t 3
+i   pin15 net5 insMM13 D t 3
+i   pin16 net4 insMM13 G t 3
+i   pin17 net7 insMM13 S t 3
+i   pin18 net5 insMM12 D t 3
+i   pin19 net6 insMM12 G t 3
+i   pin20 net7 insMM12 S t 3
+i   pin21 net9 insMM5 S s 3
+i   pin22 net6 insMM5 G t 3
+i   pin23 net8 insMM5 D t 3
+i   pin24 net5 insMM6 D t 3
+i   pin25 net4 insMM6 G t 3
+i   pin26 net9 insMM6 S t 3
+i   pin27 net5 insMM2 D t 3
+i   pin28 net4 insMM2 G t 3
+i   pin29 net10 insMM2 S s 3
+i   pin30 net10 insMM1 S t 3
+i   pin31 net1 insMM1 G t 3
+i   pin32 net8 insMM1 D t 3
+i   pin33 net5 insMM0 D t 3
+i   pin34 net6 insMM0 G t 3
+i   pin35 net10 insMM0 S t 3
+i   pin36 net11 insMM25 S s 3
+i   pin37 net1 insMM25 G t 3
+i   pin38 net2 insMM25 D t 3
+i   pin39 net12 insMM24 S s 3
+i   pin40 net4 insMM24 G t 3
+i   pin41 net11 insMM24 D t 3
+i   pin42 net13 insMM23 D s 3
+i   pin43 net6 insMM23 G t 3
+i   pin44 net12 insMM23 S t 3
+i   pin45 net14 insMM19 S s 3
+i   pin46 net1 insMM19 G t 3
+i   pin47 net13 insMM19 D t 3
+i   pin48 net14 insMM18 S t 3
+i   pin49 net4 insMM18 G t 3
+i   pin50 net13 insMM18 D t 3
+i   pin51 net14 insMM17 S t 3
+i   pin52 net6 insMM17 G t 3
+i   pin53 net13 insMM17 D t 3
+i   pin54 net2 insMM16 D t 3
+i   pin55 net8 insMM16 G t 3
+i   pin56 net14 insMM16 S t 3
+i   pin57 net15 insMM11 S s 3
+i   pin58 net4 insMM11 G t 3
+i   pin59 net13 insMM11 D t 3
+i   pin60 net16 insMM10 S s 3
+i   pin61 net4 insMM10 G t 3
+i   pin62 net13 insMM10 D t 3
+i   pin63 net15 insMM9 S t 3
+i   pin64 net6 insMM9 G t 3
+i   pin65 net13 insMM9 D t 3
+i   pin66 net8 insMM8 S t 3
+i   pin67 net6 insMM8 G t 3
+i   pin68 net16 insMM8 D t 3
+i   pin69 net8 insMM7 D t 3
+i   pin70 net1 insMM7 G t 3
+i   pin71 net15 insMM7 S t 3
+i   pin72 net5 ext VDD t -1 P
+i   pin73 net13 ext VSS t -1 P
+i   pin74 net6 ext A t -1 I
+i   pin75 net4 ext B t -1 I
+i   pin76 net1 ext CI t -1 I
+i   pin77 net8 ext CON t -1 O
+i   pin78 net2 ext SN t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 2PinNet pin5 pin0
+i   net1 7PinNet pin76 pin70 pin46 pin37 pin31 pin13 pin1
+i   net2 5PinNet pin78 pin54 pin38 pin11 pin2
+i   net3 2PinNet pin8 pin3
+i   net4 9PinNet pin75 pin61 pin58 pin49 pin40 pin28 pin25 pin16 pin4
+i   net5 8PinNet pin72 pin33 pin27 pin24 pin18 pin15 pin12 pin6
+i   net6 9PinNet pin74 pin67 pin64 pin52 pin43 pin34 pin22 pin19 pin7
+i   net7 4PinNet pin20 pin17 pin14 pin9
+i   net8 7PinNet pin77 pin69 pin66 pin55 pin32 pin23 pin10
+i   net9 2PinNet pin26 pin21
+i   net10 3PinNet pin35 pin30 pin29
+i   net11 2PinNet pin41 pin36
+i   net12 2PinNet pin44 pin39
+i   net13 8PinNet pin73 pin65 pin62 pin59 pin53 pin50 pin47 pin42
+i   net14 4PinNet pin56 pin51 pin48 pin45
+i   net15 3PinNet pin71 pin63 pin57
+i   net16 2PinNet pin68 pin60

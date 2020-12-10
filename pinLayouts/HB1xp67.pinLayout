@@ -1,0 +1,39 @@
+a   PNR Testcase Generation::  DesignName = HB1xp67
+a   Output File:
+a   /home/eto10/PNR_6T_JOURNAL2/pinLayouts_ASAP7/HB1xp67.pinLayout
+a   Width of Routing Clip = 9
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 4
+a   Width of Placement Clip = 9
+a   Tracks per Placement Clip = 3
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM22 PMOS 2
+i   insMM21 PMOS 1
+i   insMM23 NMOS 2
+i   insMM20 NMOS 1
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM23 S s 2
+i   pin1 net1 insMM23 G s 2
+i   pin2 net2 insMM23 D s 2
+i   pin3 net0 insMM20 S t 1
+i   pin4 net3 insMM20 G s 1
+i   pin5 net1 insMM20 D t 1
+i   pin6 net4 insMM22 S s 2
+i   pin7 net1 insMM22 G t 2
+i   pin8 net2 insMM22 D t 2
+i   pin9 net4 insMM21 S t 1
+i   pin10 net3 insMM21 G t 1
+i   pin11 net1 insMM21 D t 1
+i   pin12 net4 ext VDD t -1 P
+i   pin13 net0 ext VSS t -1 P
+i   pin14 net3 ext A t -1 I
+i   pin15 net2 ext Y t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 3PinNet pin13 pin3 pin0
+i   net1 4PinNet pin11 pin7 pin5 pin1
+i   net2 3PinNet pin15 pin8 pin2
+i   net3 3PinNet pin14 pin10 pin4
+i   net4 3PinNet pin12 pin9 pin6

@@ -1,0 +1,130 @@
+a   PNR Testcase Generation::  DesignName = DHLx2
+a   Output File:
+a   /home/eto10/PNR_6T_JOURNAL2/pinLayouts_ASAP7/DHLx2.pinLayout
+a   Width of Routing Clip    = 31
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 4
+a   Width of Placement Clip  = 31
+a   Tracks per Placement Clip = 3
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM1 PMOS 3
+i   insMM3 PMOS 3
+i   insMM13 PMOS 2
+i   insMM25 PMOS 6
+i   insMM12 PMOS 2
+i   insMM7 PMOS 1
+i   insMM11 PMOS 1
+i   insMM10 PMOS 1
+i   insMM5 NMOS 3
+i   insMM4 NMOS 3
+i   insMM2 NMOS 2
+i   insMM0 NMOS 2
+i   insMM24 NMOS 6
+i   insMM6 NMOS 1
+i   insMM9 NMOS 1
+i   insMM8 NMOS 1
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM5 D s 3
+i   pin1 net1 insMM5 G s 3
+i   pin2 net2 insMM5 S s 3
+i   pin3 net2 insMM4 S t 3
+i   pin4 net3 insMM4 G s 3
+i   pin5 net4 insMM4 D s 3
+i   pin6 net0 insMM2 S t 2
+i   pin7 net5 insMM2 G s 2
+i   pin8 net3 insMM2 D t 2
+i   pin9 net0 insMM0 S t 2
+i   pin10 net6 insMM0 G s 2
+i   pin11 net5 insMM0 D t 2
+i   pin12 net0 insMM24 S t 3
+i   pin13 net4 insMM24 G t 3
+i   pin14 net7 insMM24 D s 3
+i   pin15 net0 insMM6 S t 1
+i   pin16 net4 insMM6 G t 1
+i   pin17 net8 insMM6 D s 1
+i   pin18 net9 insMM9 S s 1
+i   pin19 net5 insMM9 G t 1
+i   pin20 net4 insMM9 D t 1
+i   pin21 net0 insMM8 D t 1
+i   pin22 net8 insMM8 G t 1
+i   pin23 net9 insMM8 S t 1
+i   pin24 net10 insMM1 S s 3
+i   pin25 net5 insMM1 G t 3
+i   pin26 net4 insMM1 D t 3
+i   pin27 net11 insMM3 D s 3
+i   pin28 net1 insMM3 G t 3
+i   pin29 net10 insMM3 S t 3
+i   pin30 net11 insMM13 S t 2
+i   pin31 net5 insMM13 G t 2
+i   pin32 net3 insMM13 D t 2
+i   pin33 net11 insMM25 S t 3
+i   pin34 net4 insMM25 G t 3
+i   pin35 net7 insMM25 D t 3
+i   pin36 net11 insMM12 S t 2
+i   pin37 net6 insMM12 G t 2
+i   pin38 net5 insMM12 D t 2
+i   pin39 net11 insMM7 S t 1
+i   pin40 net4 insMM7 G t 1
+i   pin41 net8 insMM7 D t 1
+i   pin42 net11 insMM11 D t 1
+i   pin43 net8 insMM11 G t 1
+i   pin44 net12 insMM11 S s 1
+i   pin45 net12 insMM10 S t 1
+i   pin46 net3 insMM10 G t 1
+i   pin47 net4 insMM10 D t 1
+i   pin48 net11 ext VDD t -1 P
+i   pin49 net0 ext VSS t -1 P
+i   pin50 net6 ext CLK t -1 I
+i   pin51 net1 ext D t -1 I
+i   pin52 net7 ext Q t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 7PinNet pin49 pin21 pin15 pin12 pin9 pin6 pin0
+i   net1 3PinNet pin51 pin28 pin1
+i   net2 2PinNet pin3 pin2
+i   net3 4PinNet pin46 pin32 pin8 pin4
+i   net4 8PinNet pin47 pin40 pin34 pin26 pin20 pin16 pin13 pin5
+i   net5 6PinNet pin38 pin31 pin25 pin19 pin11 pin7
+i   net6 3PinNet pin50 pin37 pin10
+i   net7 3PinNet pin52 pin35 pin14
+i   net8 4PinNet pin43 pin41 pin22 pin17
+i   net9 2PinNet pin23 pin18
+i   net10 2PinNet pin29 pin24
+i   net11 7PinNet pin48 pin42 pin39 pin36 pin33 pin30 pin27
+i   net12 2PinNet pin45 pin44
+i   ===PartitionInfo===
+i   InstID Type PartitionGroup
+i   insMM13 PMOS 2
+i   insMM12 PMOS 2
+i   insMM1 PMOS 4
+i   insMM3 PMOS 4
+i   insMM25 PMOS 1
+i   insMM7 PMOS 3
+i   insMM11 PMOS 3
+i   insMM10 PMOS 3
+i   insMM5 NMOS 4
+i   insMM4 NMOS 4
+i   insMM24 NMOS 1
+i   insMM6 NMOS 3
+i   insMM9 NMOS 3
+i   insMM8 NMOS 3
+i   insMM2 NMOS 2
+i   insMM0 NMOS 2
+i   ===SpecialNetInfo===
+i   NetID
+i   net3
+i   net5
+i   ===SDBCellInfo===
+i   InstID Type
+i   insMM1 PMOS
+i   insMM3 PMOS
+i   insMM7 PMOS
+i   insMM11 PMOS
+i   insMM10 PMOS
+i   insMM5 NMOS
+i   insMM4 NMOS
+i   insMM6 NMOS
+i   insMM9 NMOS
+i   insMM8 NMOS

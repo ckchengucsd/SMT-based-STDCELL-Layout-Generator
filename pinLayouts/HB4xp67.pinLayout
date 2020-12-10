@@ -1,0 +1,69 @@
+a   PNR Testcase Generation::  DesignName = HB4xp67
+a   Output File:
+a   /home/eto10/PNR_6T_JOURNAL2/pinLayouts_ASAP7/HB4xp67.pinLayout
+a   Width of Routing Clip = 15
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 4
+a   Width of Placement Clip = 15
+a   Tracks per Placement Clip = 3
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM6 PMOS 1
+i   insMM5 PMOS 1
+i   insMM2 PMOS 1
+i   insMM4 PMOS 1
+i   insMM1 PMOS 2
+i   insMM9 NMOS 1
+i   insMM8 NMOS 1
+i   insMM3 NMOS 1
+i   insMM0 NMOS 2
+i   insMM7 NMOS 1
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM9 S s 1
+i   pin1 net1 insMM9 G s 1
+i   pin2 net2 insMM9 D s 1
+i   pin3 net3 insMM8 D s 1
+i   pin4 net1 insMM8 G t 1
+i   pin5 net0 insMM8 S t 1
+i   pin6 net4 insMM3 S s 1
+i   pin7 net1 insMM3 G t 1
+i   pin8 net5 insMM3 D s 1
+i   pin9 net3 insMM0 S t 2
+i   pin10 net5 insMM0 G t 2
+i   pin11 net6 insMM0 D s 2
+i   pin12 net2 insMM7 S t 1
+i   pin13 net1 insMM7 G t 1
+i   pin14 net4 insMM7 D t 1
+i   pin15 net7 insMM6 S s 1
+i   pin16 net1 insMM6 G t 1
+i   pin17 net8 insMM6 D s 1
+i   pin18 net9 insMM5 D s 1
+i   pin19 net1 insMM5 G t 1
+i   pin20 net7 insMM5 S t 1
+i   pin21 net10 insMM2 S s 1
+i   pin22 net1 insMM2 G t 1
+i   pin23 net5 insMM2 D t 1
+i   pin24 net8 insMM4 S t 1
+i   pin25 net1 insMM4 G t 1
+i   pin26 net10 insMM4 D t 1
+i   pin27 net9 insMM1 S t 2
+i   pin28 net5 insMM1 G t 2
+i   pin29 net6 insMM1 D t 2
+i   pin30 net9 ext VDD t -1 P
+i   pin31 net3 ext VSS t -1 P
+i   pin32 net1 ext A t -1 I
+i   pin33 net6 ext Y t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 2PinNet pin5 pin0
+i   net1 9PinNet pin32 pin25 pin22 pin19 pin16 pin13 pin7 pin4 pin1
+i   net2 2PinNet pin12 pin2
+i   net3 3PinNet pin31 pin9 pin3
+i   net4 2PinNet pin14 pin6
+i   net5 4PinNet pin28 pin23 pin10 pin8
+i   net6 3PinNet pin33 pin29 pin11
+i   net7 2PinNet pin20 pin15
+i   net8 2PinNet pin24 pin17
+i   net9 3PinNet pin30 pin27 pin18
+i   net10 2PinNet pin26 pin21
