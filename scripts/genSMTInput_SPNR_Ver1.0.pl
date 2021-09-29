@@ -1755,7 +1755,7 @@ for my $i (0 .. $lastIdxPMOS) {
 				@tmp_finger_k = getAvailableNumFinger($inst[$k][2], $trackEachPRow);
 				my $height_k = $inst[$k][2]/$tmp_finger_k[0];
 
-				if($NDE_Parameter == 1 && $height_i != $height_k){
+				if($NDE_Parameter == 0 && $height_i != $height_k){
 					next;
 				}
 				elsif($tmp_finger_i[0] % 2 == 0 && $tmp_finger_k[0] % 2 == 0 && $tmp_key_S_i != $tmp_key_S_k){
@@ -1799,7 +1799,7 @@ for my $i (0 .. $lastIdxPMOS) {
 			my $height_j = $inst[$j][2]/$tmp_finger_j[0];
 
 			my $canShare = 1;
-			if($NDE_Parameter == 1 && $height_i != $height_j){
+			if($NDE_Parameter == 0 && $height_i != $height_j){
 				$canShare = 0;
 			}
 			elsif($tmp_finger_i[0] % 2 == 0 && $tmp_finger_j[0] % 2 == 0 && $tmp_key_S_i != $tmp_key_S_j){
@@ -2381,7 +2381,7 @@ for my $i ($lastIdxPMOS + 1 .. $numInstance - 1) {
 				@tmp_finger_k = getAvailableNumFinger($inst[$k][2], $trackEachPRow);
 				my $height_k = $inst[$k][2]/$tmp_finger_k[0];
 
-				if($NDE_Parameter == 1 && $height_i != $height_k){
+				if($NDE_Parameter == 0 && $height_i != $height_k){
 					next;
 				}
 				elsif($tmp_finger_i[0] % 2 == 0 && $tmp_finger_k[0] % 2 == 0 && $tmp_key_S_i != $tmp_key_S_k){
@@ -2425,7 +2425,7 @@ for my $i ($lastIdxPMOS + 1 .. $numInstance - 1) {
 			my $height_j = $inst[$j][2]/$tmp_finger_j[0];
 
 			my $canShare = 1;
-			if($NDE_Parameter == 1 && $height_i != $height_j){
+			if($NDE_Parameter == 0 && $height_i != $height_j){
 				$canShare = 0;
 			}
 			elsif($tmp_finger_i[0] % 2 == 0 && $tmp_finger_j[0] % 2 == 0 && $tmp_key_S_i != $tmp_key_S_j){
@@ -2734,7 +2734,7 @@ for my $i ($lastIdxPMOS + 1 .. $numInstance - 1) {
 			my $xol_i_o = "(_ bv".(2*$tmp_finger_i[0] + $XOL_Parameter - 2)." $len)";
 			my $xol_j_o = "(_ bv".(2*$tmp_finger_j[0] + $XOL_Parameter - 2)." $len)";
 
-			if($NDE_Parameter == 0){
+			if($NDE_Parameter == 1){
 				$height_i = $height_j;
 			}
 
@@ -3637,6 +3637,53 @@ while($isEnd == 0){
 		}
 
 		$str.=";End of Special Net Constraints\n";
+	}
+
+	if($Partition_Parameter == 1){
+		$str.=";Set Partition Constraints\n";
+		my $len = length(sprintf("%b", $numTrackV))+4;
+		# Lower Group => Right Side
+		for my $i(0 .. $#inst_group_p-1){
+			my $minBound = 1;
+			my $maxBound = $numTrackV;
+			# PMOS
+			for my $j($i+1 .. $#inst_group_p){
+				for my $k(0 .. $#{$inst_group_p[$i][1]}){
+					for my $l(0 .. $#{$inst_group_p[$j][1]}){
+						$str.="(assert (bvsgt x$inst_group_p[$i][1][$k] x$inst_group_p[$j][1][$l]))\n";
+					}
+				}
+				$minBound+=$inst_group_p[$j][2];
+			}
+			for my $j(0 .. $i-1){
+				$maxBound-=$inst_group_p[$j][2];
+			}
+			for my $k(0 .. $#{$inst_group_p[$i][1]}){
+				$str.="(assert (bvsge x$inst_group_p[$i][1][$k] (_ bv$minBound $len)))\n";
+				$str.="(assert (bvsle x$inst_group_p[$i][1][$k] (_ bv$maxBound $len)))\n";
+			}
+		}
+		for my $i(0 .. $#inst_group_n-1){
+			my $minBound = 1;
+			my $maxBound = $numTrackV;
+			# NMOS
+			for my $j($i+1 .. $#inst_group_n){
+				for my $k(0 .. $#{$inst_group_n[$i][1]}){
+					for my $l(0 .. $#{$inst_group_n[$j][1]}){
+						$str.="(assert (bvsgt x$inst_group_n[$i][1][$k] x$inst_group_n[$j][1][$l]))\n";
+					}
+				}
+				$minBound+=$inst_group_n[$j][2];
+			}
+			for my $j(0 .. $i-1){
+				$maxBound-=$inst_group_n[$j][2];
+			}
+			for my $k(0 .. $#{$inst_group_n[$i][1]}){
+				$str.="(assert (bvsge x$inst_group_n[$i][1][$k] (_ bv$minBound $len)))\n";
+				$str.="(assert (bvsle x$inst_group_n[$i][1][$k] (_ bv$maxBound $len)))\n";
+			}
+		}
+		$str.=";End of Partition Constraints\n";
 	}
 
 	$str.=";Set Initial Value for Gate Pins of P/N FET in the same column\n";
