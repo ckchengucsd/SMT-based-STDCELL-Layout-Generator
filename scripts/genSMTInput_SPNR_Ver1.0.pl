@@ -73,7 +73,7 @@ if ($ARGC != 15) {
 	$SHR_Parameter = $ARGV[5];
 	$MPL_Parameter = $ARGV[6];
 	$XOL_Mode = $ARGV[7];
-	$NDE_Parameter = $ARGV[9];
+	$NDE_Parameter = $ARGV[8];
 	$Partition_Parameter = $ARGV[9];
 	$ML_Parameter = $ARGV[10];
 	$Local_Parameter = $ARGV[11];
@@ -81,6 +81,7 @@ if ($ARGC != 15) {
 	$BS_Parameter = $ARGV[13];
 	$objpart_Parameter = $ARGV[14];
 
+	print "NDE $NDE_Parameter\n";
     if ($MAR_Parameter == 0){
         print "\n*** Disable MAR (When Parameter == 0) ***\n";
     }
@@ -123,7 +124,7 @@ if (!-e "./$infile") {
     print "a   Version Info : 1.0 Initial Release\n";
     print "a        Design Rule Parameters : [MAR = $MAR_Parameter , EOL = $EOL_Parameter, VR = $VR_Parameter, PRL = $PRL_Parameter, SHR = $SHR_Parameter]\n";
     print "a        Parameter Options : [MPO = $MPL_Parameter], [Localization = $Local_Parameter (T$tolerance)]\n";
-	print "a	                        [Cell Partitioning = $Partition_Parameter], [FST = $NDE_Parameter], [Breaking Symmetry = $BS_Parameter]\n";
+	print "a	                        [Cell Partitioning = $Partition_Parameter], [FST = ".($NDE_Parameter==0?"Disable":"Enable")."], [Breaking Symmetry = $BS_Parameter]\n";
 	print "a	                        [DBMode = $XOL_Mode($XOL_Parameter)], [Objective Partitioning = $objpart_Parameter]\n\n";
     print "a   Generating SMT-LIB 2.0 Standard inputfile based on the following files.\n";
     print "a     Input Layout:  $workdir/$infile\n";
@@ -1323,7 +1324,7 @@ print $out ";   DO NOT DISTRIBUTE IN ANY PURPOSE! \n\n";
 print $out ";	Input File:  $workdir/$infile\n";
 print $out ";   Design Rule Parameters : [MAR = $MAR_Parameter , EOL = $EOL_Parameter, VR = $VR_Parameter, PRL = $PRL_Parameter, SHR = $SHR_Parameter]\n";
 print $out ";   Parameter Options : [MPO = $MPL_Parameter], [Localization = $Local_Parameter (T$tolerance)]\n";
-print $out ";                       [Cell Partitioning = $Partition_Parameter], [FST = $NDE_Parameter], [Breaking Symmetry = $BS_Parameter]\n";
+print $out ";                       [Cell Partitioning = $Partition_Parameter], [FST = ".($NDE_Parameter==0?"Disable":"Enable")."], [Breaking Symmetry = $BS_Parameter]\n";
 print $out ";                       [DBMode = $XOL_Mode($XOL_Parameter)], [Objective Partitioning = $objpart_Parameter]\n\n";
 
 print $out ";Layout Information\n";
