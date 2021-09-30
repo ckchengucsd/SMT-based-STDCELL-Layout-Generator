@@ -22,7 +22,7 @@ my $SON = 1;               # 0: Disable, 1: Enable
 my $DoublePowerRail = 0;   # 0: Disable, 1: Enable
 my $MM_Parameter = 4;      # 3: Maximum Number of MetalLayer
 my $EXT_Parameter = 0;     # 0 only
-my $BCP_Parameter = 0;     # 0: Disable 1: Enable BCP(Default)
+my $BCP_Parameter = 1;     # 0: Disable 1: Enable BCP(Default)
 
 my $MAR_Parameter = 1;     # ARGV[1], Minimum Area 1: (Default), Integer
 my $EOL_Parameter = 1;     # ARGV[2], End-of-Line  1: (Default), Integer
@@ -81,7 +81,6 @@ if ($ARGC != 15) {
 	$BS_Parameter = $ARGV[13];
 	$objpart_Parameter = $ARGV[14];
 
-	print "NDE $NDE_Parameter\n";
     if ($MAR_Parameter == 0){
         print "\n*** Disable MAR (When Parameter == 0) ***\n";
     }
